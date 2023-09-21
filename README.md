@@ -53,7 +53,7 @@ mvn package -U
 
 3. Ejecutamos el proyecto
 ```maven
-mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.RunMyServer"
+java -cp target/EciSpringboot-1.0-SNAPSHOT.jar edu.escuelaing.arep.RunMyServer
 ```
 
 <img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/main/resources/img/running.jpg" />
