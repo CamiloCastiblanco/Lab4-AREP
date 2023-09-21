@@ -37,7 +37,7 @@ public class HelloController {
 0. Desde cmd clonar el repositorio
 
 ```git
-git clone https://github.com/Rincon10/AREP-TALLER04.git
+git clone https://github.com/CamiloCastiblanco/Lab4-AREP.git
 ```
 
 
@@ -56,7 +56,7 @@ mvn package -U
 mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.RunMyServer"
 ```
 
-<img src="https://github.com/Rincon10/AREP-TALLER04/blob/master/resources/img/running.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/running.jpg" />
 
 
 
@@ -70,7 +70,7 @@ La documentación se generara en la ruta
 target/site/apidocs/index.html
 ```
 
-<img src="https://github.com/Rincon10/AREP-TALLER04/blob/master/resources/img/javaDoc.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/javaDoc.jpg" />
 
 <br />
 
@@ -86,42 +86,42 @@ mvn test
 
 Para que nuestro framework casero detectara que componentes cargar, decidimos colocar la anotación **@component**, de tal manera que se buscaran todas las clases que tengan esa etiqueta.
 
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/searchingComponents.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/searchingComponents.jpg" />
 
 ## **Carga de página por defecto**
 
 ```
 http://localhost:35000/
 ```
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/defaultPage.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/defaultPage.jpg" />
 
 ## **Carga de página del controllador hello**
 
 ```
 http://localhost:35000/hello
 ```
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/hello.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/hello.jpg" />
 
 ## **Carga de página 404**
 
 ```
 http://localhost:35000/dsds
 ```
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/404.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/404.jpg" />
 
 ## **Carga de página Status**
 
 ```
 http://localhost:35000/Services/status
 ```
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/status.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/status.jpg" />
 
 ## **Carga de página Date**
 
 ```
 http://localhost:35000/Services/date
 ```
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/date.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/date.jpg" />
 
 ## **Carga de imagen**
 
@@ -129,7 +129,7 @@ http://localhost:35000/Services/date
 http://localhost:35000/public/image
 ```
 
-<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/blob/master/resources/img/img.jpg" />
+<img src="https://github.com/CamiloCastiblanco/Lab4-AREP/resources/img/img.jpg" />
 
 ## **Construido con**
   -   [Maven](https://maven.apache.org/download.cgi) - Gestor de dependencias
