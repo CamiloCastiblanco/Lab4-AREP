@@ -43,7 +43,7 @@ git clone https://github.com/CamiloCastiblanco/Lab4-AREP.git
 
 1. Ubicarse en la carpeta AREP-TALLER04 y borraremos todas las dependencias y modulos que puedan exisitir de los binarios del proyecto.
 ```maven
-mvn clean
+mvn clean install
 ```
 
 2. Realizamos la compilación y empaquetamiento del proyecto
